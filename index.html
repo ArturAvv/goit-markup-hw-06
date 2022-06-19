@@ -426,10 +426,14 @@
               valid
             />
           </form>
-          <button type="submit" class="btn footer-btn">Подписаться</button>
+          <button type="submit" class="btn footer-btn">Подписаться 
+          <svg class="footer-send-icon" width="24" height="24">
+            <use href="./images/symbol-defs.svg#icon-send"></use></button>
+          </svg>
         </div>
       </div>
     </footer>
+
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button type="button" class="close-btn" data-modal-close>
@@ -485,7 +489,7 @@
               id="privacy"
             />
             <label for="privacy" class="check-text"
-              >Соглашаюсь с рассылкой и принимаю <span class="modal-span">Условия договора</span></label
+              >Соглашаюсь с рассылкой и принимаю <a href="" class="modal-terms">Условия договора</a></label
             >
           </div>
         </form>
