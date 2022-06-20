@@ -735,6 +735,7 @@ address {
   align-items: center;
   justify-content: center;
   transition: box-shadow 250ms var(--timing-function);
+  padding-top: 3px;
 }
 
 .btn-close {
