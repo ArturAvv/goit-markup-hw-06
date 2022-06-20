@@ -493,7 +493,6 @@ address {
 
 .footer-social-box {
   margin-left: 70px;
-  margin-right: 93px;
 }
 
 .location {
@@ -547,7 +546,11 @@ address {
 }
 
 .footer-form-cont {
-  position: relative;
+  margin-left: auto;
+}
+
+.footer-form {
+  display: flex;
 }
 
 .footer-input {
@@ -574,12 +577,10 @@ address {
   border: none;
   border-radius: 4px;
   transition: background-color 250ms var(--timing-function);
-  position: absolute;
-  left: 370px;
-  top: 42%;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-left: 12px;
 }
 
 .footer-btn:hover,
